@@ -1,70 +1,146 @@
-# Getting Started with Create React App
+## Hello-react-front-end
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a name="readme-top"></a>
+<div align="center">
+  <br/>
+  <h3><b>Hello-react-frontend</b></h3>
+</div>
+# 📗 Table of Contents
 
-## Available Scripts
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Hello-react-front-end](#-Hello-react-front-end)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [🙏 Support](#support)
+  - [🙏 Acknowledgements](#acknowledgements)
+  - [📝 License ](#-license-)
 
-In the project directory, you can run:
+# 📖 Hello-react-front-end <a name="about-project">Hello-react-front-end</a>
 
-### `npm start`
+## Welcome to Hello-react-front-end - Your Budget App!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Hello-react-front-end is a react app that display a random greeting that is fetched by a rails API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Link to rails Backend Api](https://github.com/fredo509/hello-rails-back-end_/tree/setup)
 
-### `npm test`
+## 🛠 Built With <a name="built-with"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm run build`
+<details>
+  <summary>FrontEnd</summary>
+  <ul>
+    <li><a href="https://es.react.dev/">React</a></li>
+  </ul>
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Key Features <a name="key-features"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **fetch data from rails api**
+- **display random greetings**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run eject`
+## 💻 Getting Started <a name="getting-started"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To get a local copy up and running, follow these steps.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+In order to run this project you need:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 
-## Learn More
+### Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+  cd my-folder
+  git clone  https://github.com/Ellyboi/hello-railsr-eact-frontend.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Install
 
-### Code Splitting
+This project requires react dependencies. Also, it uses Eslint and Stylelint as a linters.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+  npm install
+```
 
-### Analyzing the Bundle Size
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To run the project, navigate to the project directory and execute the following commands:
 
-### Making a Progressive Web App
+build:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```sh
+  npm run build
+```
 
-### Advanced Configuration
+run server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+  npm start
+```
 
-### Deployment
+### Run tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To run tests, run the following command:
 
-### `npm run build` fails to minify
+Run the following command
+```sh
+  npx stylehint "**/*.{css,scss}"
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+  npx eslint "**/*.{js,jsx}"
+```
+## 👥 Author <a name="authors"></a>
+
+👤 **Fredo Fleur**
+
+- GitHub: [fredo509](https://github.com/fredo509)
+- Twitter: [@Fredo_st_fleur](https://twitter.com/Fredo_st_fleur?t=kXdEx7GqmngfCYId_vu8Tg&s=09)
+- LinkedIn: [fredo-st-fleur](https://www.linkedin.com/in/fredo-st-fleur)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+-**add components**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please follow me to find more projects of this type in future.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank to mi coding partners from Microverse bootcamp.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed..
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
